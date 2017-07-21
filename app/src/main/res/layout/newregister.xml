@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/editText7"
+        android:hint="Full Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editText9"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_marginTop="21dp"
+        android:id="@+id/editText10"
+        android:hint="Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="24dp"
+        android:id="@+id/editText13"
+        android:hint="Email"
+        android:layout_below="@+id/editText10"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_marginTop="22dp"
+        android:id="@+id/editText12"
+        android:hint="Phone Number"
+        android:layout_below="@+id/editText13"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignStart="@+id/editText13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText9"
+        android:hint="Username"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editText14"
+        android:hint="Aadhar Card Number"
+        android:layout_below="@+id/editText12"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_alignStart="@+id/editText12" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText14"
+        android:layout_alignRight="@+id/editText14"
+        android:layout_alignEnd="@+id/editText14"
+        android:layout_marginRight="31dp"
+        android:onClick="goto_location"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/button9" />
+</RelativeLayout>
